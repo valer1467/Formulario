@@ -11,10 +11,8 @@ formulario.addEventListener("submit", function(e){
 
 let valido = true;
 const errorNombre = document.getElementById("error-nombre");
-const errorCP = document.getElementById("error-cp");
-const errorPais = document.getElementById("error-pais");
-const errorCaptcha = document.getElementById("error-captcha");
-const mensajeFinal = document.getElementById("mensaje-final");
+const errorCP = document.getElementById("error-codigo_postal");
+const errorPais = document.getElementById("error-edad");
 
     
   // Validación de nombre
