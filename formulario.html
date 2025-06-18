@@ -12,14 +12,17 @@
     <form id="formulario">
         <label for="nombre">Nombre completo:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
-         
+        <span class="error" id="error-nombre">Ingresa un nombre válido.</span> 
+
         <!--edad-->
         <label for="edad">Edad</label>
         <input type="number" id="edad" name="edad" required><br><br>
+        <span class="error" id="error-edad">Ingresa una edad válida</span>
 
         <!--codigo postal-->
         <label for="codigo postal">Código Postal</label>
         <input type="number" id="codigo_postal" name="codigo_postal" required><br><br>
+        <span class="error" id="error-cp">Ingresa un código postal válido.</span>
 
         <label for="género">Género:</label><br><br>
         <input type="radio" id="genero" name="genero" value="masculino" required>
@@ -57,6 +60,11 @@
         <!--imagen-->
         <label for="imagen">Subir imagen:</label>
         <input type="file" id="imagen" name="imagen" accept="image/*"><br><br><!--el comando accept: delimietar que tipo de archivo de sube-->
+
+        <label for="captcha">¿Cuánto es 77 + 5?</label>
+        <input type="number" id="captcha" name="captcha" required>
+        <span class="error" id="error-captcha">Respuesta incorrecta. Intenta otra vez.</span>
+
 
         <!--enviar-->
         <label for="enviar">Enviar Formulario</label>
