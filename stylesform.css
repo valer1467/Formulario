@@ -100,3 +100,16 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
+.error {
+      color: red;
+      font-size: 0.9em;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      display: none;
+    }
+    .success {
+      color: green;
+      font-weight: bold;
+      margin-top: 20px;
+    }
