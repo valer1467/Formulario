@@ -3,7 +3,7 @@ let input_nom = document.getElementById("nombre").value.trim();
 let input_codigo_postal = document.getElementById("codigo_postal").value.trim();
 let input_edad = document.getElementById("edad").value.trim();
 let input_genero = document.getElementById("genero");
-let input_intereses = document.getElementById("intereses").value.trim();
+let input_intereses = document.getElementById("intereses");
 let input_comentarios = document.getElementById("comentarios");
 
 formulario.addEventListener("submit", function(e){
